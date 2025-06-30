@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import "./App.css"; // Assuming you have a CSS file for global styles
 import { v4 as uuidv4 } from 'uuid';
 import React from "react";
-import { useLocalStorage } from "./hooks/useLocalStorage"; // Custom hook for local storage
 
 
 function App() {
