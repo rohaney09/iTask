@@ -97,7 +97,7 @@ useEffect(() => {
       <h2 className="text-2xl font-bold text-gray-800 mt-6">Your ToDos</h2>
       <div className="todos flex flex-col gap-4 mt-4">
         {todos.length === 0 && (
-          <div className="text-center text-gray-600 text-xl">
+          <div className="text-center text-gray-600 text-xl mt-30"">
             No tasks available. Please add a task.
           </div>
         )}
