@@ -21,7 +21,6 @@ useEffect(() => {
   };
 
 
-
   const handleAdd = () => {
     setTodos([...todos, {id:uuidv4(), todo, isCompleted: false}]);
     setTodo("")
@@ -37,7 +36,7 @@ useEffect(() => {
     setTodos(newTodos);
     saveToLS()
 
- 
+
   };
 
   const handleDelete = (e,id) => {
