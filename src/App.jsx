@@ -15,6 +15,7 @@ useEffect(() => {
   }
 }, []);
 
+
   const saveToLS = (params)=>{
     localStorage.setItem("todos", JSON.stringify(todos));
   };
